@@ -21,8 +21,17 @@ Welcome to day 1 at BloomTech, today we are going to spend time setting up your 
 Now that you are all set up, it's time to learn a little more about the tools of the trade. Edit this file and answer the following questions. You can type your answer below the questions. You are going to need to start familiarizing yourself with the [GitHub docs](https://docs.github.com/en) doc short for documentation are the instructions on how to use a languge, or program. A large part of your job as a developer will be learning how to read and work with documentation. Please reference the GitHub docs when answering the questions below. If you cannot find what you are looking for in the docs, you can always start to practice your google skills. 
 
 1. What is git? What is the difference between git and GitHub?
+git is an open source version control system to help keep track of source code history and GitHub is a hosting service where you can manage your git repos
 2. Why do we create a branch? 
+so we can isolate, make changes, and fix bugs in code without changing the main until the changes have been tested
 3. What is the purpose of a pull request? 
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
 4. What is the command you can use to switch between branches? For example you are working on a feature branch and you want to switch back to main. 
+git switch or git checkout <branchname>
 5. Explain the difference between `git fetch`, `git merge` and `git pull` what does each command do? 
+git fetch downloads all branches, tags, and data from a repo to local machine and overwrites any exsisting local code
+git merge lets you take the independent lines of development created by git branch and integrate them into a single branch
+git pull is used to fetch and download content from a remote repository and immediately update the local repository to match that content
 6. What is a merge conflict? How do you resolve a merge conflict? 
+a merge conflict happens when Git is unable to automatically resolve differences in code between two commits
+to resolve a merge conflict you have to decide which branches changes you want to keep
